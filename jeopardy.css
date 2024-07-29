@@ -1,0 +1,102 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+body{
+  background-color: #115ff4;
+  text-align: center;
+  height: 100%;
+}
+
+
+
+
+h1{
+  color: white;
+  box-shadow: 0 5px 50px 0 white inset, 0 5px 50px 0 white; 
+  margin: 20px;
+  font-size: 50px;
+  transition: 0.5s;
+}
+
+  
+
+
+#start-game{
+  margin-bottom: 10px;
+  align-self: center;
+  color: white;
+  font-size: 16px;
+  background: #8d2ab5;
+  width: 9%;
+  height: 55px;
+  border-radius: 8px;
+  border-style: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+
+
+
+#start-game:hover{
+  background-color: #74119c;
+}
+
+
+
+
+.jeopardy{
+  border: 1px solid white;
+  border-collapse: collapse;
+  outline: none;
+  background-color: #060ce9;
+  color: white;
+  margin-left: 25%;
+  width: 50%;
+}
+
+
+
+
+.fa-solid{
+  font-size: 30px;
+}
+
+
+
+
+td{
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+
+
+th{
+  height: 60px;
+  font-size: 80%;
+  text-transform: uppercase;
+}
+
+
+
+
